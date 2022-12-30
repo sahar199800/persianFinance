@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
+</head>
+
+<body>
+    <div class="content" style="padding-top: 5px;">
+        <div id="head1" class="head1">
+            <img src="assets/img/b.png" style="width: 70px;height: 60px;align-content:flex-start;" alt="logo">
+            <div id="mySidenav" class="sidenav" style="align-content: flex-end;">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+            </div>
+            <span style="font-size:30px;cursor:pointer;" onclick="openNav()">&#9776; </span>
+        </div>
+
+        <div class="back_img">
+            <h1
+                style="letter-spacing: 2px;font-weight: 700;font-size: 2.4rem;text-transform: uppercase; padding-top: 80px ;text-align: center;font-family:'shabnam';">
+                <b>
+                    خدمات <br>
+                    مالی حرفه ای
+                </b>
+            </h1>
+            <p
+                style="text-transform: uppercase;font-size: 1.25rem;letter-spacing: 2px;text-align: center; padding-top: 50px;font-family:'shabnam';">
+                تجربه بالاترین سطح
+            </p>
+            <button class="button1" style="font-family:'shabnam';">
+                ارتباط با ما
+            </button>
+
+        </div>
+
+        <div class="div_welcome">
+            <h4 style="text-align: center;margin: 45px auto 0;font-family:'shabnam';">
+                خوش آمدید
+            </h4>
+            <h1 style="margin: 18px auto 0;text-align: center;font-family:'shabnam';">
+                به سرویس های ما
+            </h1>
+            <p class="p_size"
+                style="text-align: center;width: 670px;justify-content: center;align-self: center;padding-top: 30px;font-family:'shabnam';direction: rtl;">
+                خدمات مشاوره مدیریت ما بر بحرانی ترین مسائل و فرصت های مشتریان تمرکز دارد.
+            </p>
+        </div>
+
+        <div class="container" style="display: flex;flex-flow: wrap;">
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 column_3">
+                <h3 style="font-size: 1.5rem; text-align: right;font-family:'shabnam';font-weight: bold;">
+                    مشاوره <br> کسب و کار
+                </h3>
+                <p style="text-align: right;margin: 20px 2px 0 0;direction: rtl;font-family:'shabnam';">
+                    برای کاهش آسیب­های ناشی از این بحران­ها بهتر است، از مشاورین و افراد متخصص در این زمینه کمک بگیرید.
+                    <br>
+                </p>
+                <br><br>
+                <h3 style="font-size: 1.5rem; text-align: right;font-family:'shabnam';font-weight: bold;">
+                    سرمایه گذاری
+                </h3>
+                <p style="text-align: right;margin: 20px 2px 0 0;direction: rtl;font-family:'shabnam';">
+                    در علم اقتصاد، سرمایه گذاری به معنای تخصیص منابع مالی به یک یا چند دارایی مختلف، به امید به دست
+                    آوردن منابع با ارزش‌تر در آینده است.
+                    <br>
+                </p>
+            </div>
+            <div class="col-xl-5 col-lg-5 col-md-6 col-sm-12 column_3"
+                style="flex-direction: column;position: relative;display: flex;">
+                <div class="man_img">
+
+                </div>
+            </div>
+            <div id="length1" class="col-xl-3 col-lg-3 col-md-6 col-sm-12 column_3">
+                <h3 style="font-size: 1.5rem; text-align: right;font-family:'shabnam';font-weight: bold;">
+                    پس انداز مالی
+                </h3>
+                <p style="text-align: right;margin: 20px 2px 0 0;direction: rtl;font-family:'shabnam';">
+                    به پولی که پس از کسر هزینه‌های مصرفی از درآمد هر فرد یا خانواده باقی می‌ماند، گفته می‌شود. توجه
+                    داشته باشید که معمولا پس انداز به شکل وجه نقد نگهداری می‌شود.
+                    <br>
+                </p>
+                <br><br>
+                <h3 style="font-size: 1.5rem; text-align: right;font-family:'shabnam';font-weight: bold;">
+                    تحقیقات بازاریابی
+                </h3>
+                <p style="text-align: right;margin: 20px 2px 0 0;direction: rtl;font-family:'shabnam';">
+                    فعالیت‌هایی که ارتباط لازم را بین مصرف‌کنندگان، خریداران و مدیران بازاریابی از طریق تبادل اطلاعات
+                    برقرار می‌کند.
+                    <br>
+                </p>
+            </div>
+        </div>
+
+        <div class="container-fluid" style="padding-right: 0;margin-right: 0;">
+            <div class="row blue_div" style="width: 100%;">
+                <h1 style="text-align: center; color: white;padding-top: 70px;font-family:'shabnam'; ">
+                    نحوه اجرایی کار ما
+                </h1>
+                <p
+                    style="text-align: center; color: white;max-width: 590px; padding-top: 20px;align-self: center;direction: rtl;font-family:'shabnam';">
+                    ما آموزش تخصصی کسب و کار را هم برای افراد و هم برای مشاغل ارائه می دهیم. با بیش از 30 سال تجربه،
+                    اطمینان حاصل می کنیم که شما همیشه بهترین راهنمایی ها را از افراد برتر در کل صنعت دریافت می کنید.
+                </p>
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12"
+                        style="margin-top: 40px; margin-bottom: 40px;display: flex; justify-content: center;flex-direction: column;">
+                        <h1 style="text-align: center; color: white; ">
+                            ۱۶
+                        </h1>
+                        <p
+                            style="text-align: center; color: white; text-transform: uppercase;letter-spacing: 2px;font-size: 1.125rem;margin: 20px 0 0;margin-top: 20px;font-family:'shabnam';">
+                            متخصصان
+                        </p>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12"
+                        style="margin-top: 40px; margin-bottom: 40px;display: flex; justify-content: center;flex-direction: column;">
+                        <h1 style="text-align: center; color: white; ">
+                            ۷۰۰
+                        </h1>
+                        <p
+                            style="text-align: center; color: white; text-transform: uppercase;letter-spacing: 2px;font-size: 1.125rem;margin: 20px 0 0;margin-top: 20px;font-family:'shabnam';">
+                            مشتریان
+                        </p>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12"
+                        style="margin-top: 40px; margin-bottom: 40px;display: flex; justify-content: center;flex-direction: column;">
+                        <h1 style="text-align: center; color: white; ">
+                            ۳۷
+                        </h1>
+                        <p
+                            style="text-align: center; color: white; text-transform: uppercase;letter-spacing: 2px;font-size: 1.125rem;margin: 20px 0 0;margin-top: 20px;font-family:'shabnam';">
+                            عناوین
+                        </p>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12"
+                        style="margin-top: 40px; margin-bottom: 40px;display: flex; justify-content: center;flex-direction: column;">
+                        <h1 style="text-align: center; color: white; ">
+                            ۴۰
+                        </h1>
+                        <p
+                            style="text-align: center; color: white; text-transform: uppercase;letter-spacing: 2px;font-size: 1.125rem;margin: 20px 0 0;margin-top: 20px;font-family:'shabnam';">
+                            جوایز
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12"
+                    style="justify-content: center; display: flex;flex-direction: column;margin: 0 auto;">
+                    <h1 class="p_size"
+                        style="padding: 30px 45px 30px 0;text-align: right; font-size: 2rem;font-weight: 300;white-space: nowrap;font-family:'shabnam';">
+                        خدمات طرح کسب و کار
+                    </h1>
+                    <p class="width_100"
+                        style="font-size: 1.3rem;font-weight: 300;text-align: right;width: 90%;direction: rtl;font-family:'shabnam';">
+                        طرح کسب‌وکار یک نقشه راه برای کسب‌وکار است که ابعاد مختلف شکل‌گیری کسب‌وکار و موانع احتمالی را
+                        پیش‌بینی می‌کند. این طرح در قالب یک سند چند صفحه‌ای ارائه شده و جزییات کار یک شرکت نوپا (عموما
+                        استارتاپ) را برای رسیدن به اهدافش بیان می‌کند. مهم‌ترین کاربرد این سند، جذب سرمایه‌گذاران به
+                        پروژه است. بسیاری از شتاب‌دهنده‌ها و سرمایه‌گذاران، قبل از ملاقات با صاحب ایده از او درخواست
+                        ایجاد طرح کسب‌وکار می‌کنند. گاهی طرح کسب‌وکار آنقدر خوب است که بدون نیاز به ارائه حضوری، نظر
+                        سرمایه‌گذار را به پروژه جلب می‌کند. تمام این اتفاقات خوب در گرو داشتن ایده خوب و بیان خوب و دقیق
+                        ابعاد آن در قالب طرح کسب‌وکار است.
+                    </p>
+                    <hr style="width: 85%;">
+                    <p
+                        style="text-align: right; margin-top: 20px; font-size: 1rem;width: 90%;direction: rtl;font-family:'shabnam';">
+                        توضیحاتی در این رابطه را در ادامه میتوانید بخوانید.
+                    </p>
+                </div>
+                <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12"
+                    style=" display: flex;flex-direction: column;margin: 0 auto;">
+                    <h1
+                        style="padding: 30px 50px 30px 0;text-align: right; font-size: 2rem;font-weight: 300;width: 30%;white-space: nowrap;font-family:'shabnam';">
+                        درباره پروژه ها
+                    </h1>
+                    <p class="width_101" style="line-height: 1.8;width: 360px;font-family:'shabnam';direction: rtl;">
+                        مدیریت پروژه اجرایی شامل مجموعه‌ای از اهداف است که ممکن است توسط اجرای یک سری عملیات محدود به
+                        منابع محقق شوند. اختلاف بالقوه‌ ای میان اهداف بیان شده و حدود خدمات، هزینه، زمان، کیفیت و
+                        محدودیت‌های اعمال شده از جانب منابع مالی و نیروی انسانی وجود دارد. 
+                    </p>
+                    <button class="button2" style="font-family:'shabnam';">
+                        بیشتر بدانید
+                    </button>
+                    <div class="men_img">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="main_col" class="container" style="visibility: visible;">
+            <div class="row">
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12"
+                    style="flex-direction: column;display: flex; position: relative;align-items: center; justify-content:space-between;">
+                    <h2 style="font-size: 3.75rem;font-weight: 700; text-align: center; padding-top: 65px;">
+                        1
+                    </h2>
+                    <h2 style="font-size: 3.75rem;font-weight: 700; text-align: center; margin-top: 100px;">
+                        2
+                    </h2>
+                    <h2 style="font-size: 3.75rem;font-weight: 700; text-align: center; margin-top: 100px;">
+                        3
+                    </h2>
+                </div>
+                <div class="col-lg-4 col-lg-4 col-md-6 col-sm-12" style="margin-top: 50px;overflow: auto;">
+                    <div
+                        style="background-color: #3f5782; position: relative; flex-direction: column;display: flex;margin-left: 0;width: 340px;height: 230px;">
+                        <h6 style="text-align: right; color: white;padding-top: 20px; padding-left: 30px;font-family:'shabnam';">
+                            برنامه ریزی کسب و کار
+                        </h6>
+                        <p
+                            style="font-style: italic;font-weight: 300; margin-top: 20px; color: white;padding-left: 30px;padding-right: 30px;">
+                            Sample text. Click to select the text box. Click again or double click to start editing the
+                            text. Sample text. Click to select the text box. Click again or double click to start
+                            editing the text.
+                        </p>
+                    </div>
+                    <div
+                        style="background-color: #3f5782; position: relative; flex-direction: column;display: flex;margin-left: 0;width: 340px;height: 230px;margin-top: 15px;">
+                        <h6 style="text-align: right; color: white;padding-top: 20px; padding-left: 30px;">
+                            خدمات مشاوره
+                        </h6>
+                        <p
+                            style="font-style: italic;font-weight: 300; margin-top: 20px; color: white;padding-left: 30px;padding-right: 30px;">
+                            Sample text. Click to select the text box. Click again or double click to start editing the
+                            text. Sample text. Click to select the text box. Click again or double click to start
+                            editing the text.
+                        </p>
+                    </div>
+                    <div
+                        style="background-color: #3f5782; position: relative; flex-direction: column;display: flex;margin-left: 0;width: 340px;height: 230px;margin-top: 15px;">
+                        <h6 style="text-align: right; color: white;padding-top: 20px; padding-left: 30px;">
+                            تحقیقات بازار
+                        </h6>
+                        <p
+                            style="font-style: italic;font-weight: 300; margin-top: 20px; color: white;padding-left: 30px;padding-right: 30px;">
+                            Sample text. Click to select the text box. Click again or double click to start editing the
+                            text. Sample text. Click to select the text box. Click again or double click to start
+                            editing the text.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-lg-5 col-md-12 col-sm-12" style="margin-top: 50px;">
+                    <div class="pen_img" style="flex-direction: column;width:100% ;position: relative;height: 720px;">
+                    </div>
+                </div>
+                <p style="text-align:center;font-size: 18px;padding-top: 40px;padding-bottom: 30px;">
+                    Image from
+                    <a href="#" style="color: black;">Freepik</a>
+                </p>
+            </div>
+        </div>
+
+        <div id="sm_12" class="container" style="display: none;">
+            <div class="row">
+                <div class="col-12"
+                    style="flex-direction:column;display: flex; margin-top: 60px; position: relative;padding: 30px 10px;width: 100%; ">
+                    <h2
+                        style="font-size: 3.75rem;font-weight: 700; text-align: center; padding-top: 65px;display: flex;">
+                        1
+                    </h2>
+                    <div class="col-12"
+                        style="background-color: #3f5782; position: relative; flex-direction: column;display: flex;margin-left: 10px;width: 100%;height: 230px;">
+                        <h6 style="text-align: left; color: white;padding-top: 20px; padding-left: 30px;">
+                            Business Planning
+                        </h6>
+                        <p
+                            style="font-style: italic;font-weight: 300; margin-top: 20px; color: white;padding-left: 30px;padding-right: 18px;">
+                            Sample text. Click to select the text box. Click again or double click to start editing the
+                            text. Sample text. Click to select the text box. Click again or double click to start
+                            editing the text.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12" style="flex-direction: column;display: flex; position: relative;width: 100%;">
+                <h2 style="font-size: 3.75rem;font-weight: 700; text-align: center; padding-top: 65px;display: flex;">
+                    2
+                </h2>
+                <div class="col-12"
+                    style="background-color: #3f5782; position: relative; flex-direction: column;display: flex;margin-left: 10px;width: 100%;height: 230px;">
+                    <h6 style="text-align: left; color: white;padding-top: 20px; padding-left: 30px;">
+                        Consulting Services
+                    </h6>
+                    <p
+                        style="font-style: italic;font-weight: 300; margin-top: 20px; color: white;padding-left: 30px;padding-right: 18px;">
+                        Sample text. Click to select the text box. Click again or double click to start editing the
+                        text. Sample text. Click to select the text box. Click again or double click to start
+                        editing the text.
+                    </p>
+                </div>
+            </div>
+            <div class="col-12" style="flex-direction: column;display: flex; position: relative;width: 100%;">
+                <h2 style="font-size: 3.75rem;font-weight: 700; text-align: center; padding-top: 65px;display: flex;">
+                    3
+                </h2>
+                <div class="col-12"
+                    style="background-color: #3f5782; position: relative; flex-direction: column;display: flex;margin-left: 10px;width: 100%;height: 230px;">
+                    <h6 style="text-align: left; color: white;padding-top: 20px; padding-left: 30px;">
+                        Market Research
+                    </h6>
+                    <p
+                        style="font-style: italic;font-weight: 300; margin-top: 20px; color: white;padding-left: 30px;padding-right: 18px;">
+                        Sample text. Click to select the text box. Click again or double click to start editing the
+                        text. Sample text. Click to select the text box. Click again or double click to start
+                        editing the text.
+                    </p>
+                </div>
+            </div>
+            <div class="pen_img"
+                style="flex-direction: column;position: relative;height: 720px;margin-top: 20px;height: 500px;">
+            </div>
+            <p style="text-align:center;font-size: 18px;padding-top: 20px;">
+                Image from
+                <a href="#" style="color: black;">Freepik</a>
+            </p>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12"
+                    style="display: flex; flex-direction: column;align-items: center;padding-top: 40px;">
+                    <div
+                        style="background-color: #3f5782; width: 200px;height: 360px;position: relative;margin-left: 40px;">
+                        <div class="boy_img">
+                        </div>
+                    </div>
+                    <p style="text-align:center;font-size: 18px;padding-top: 30px;">
+                        Image from
+                        <a href="#" style="color: black;">Freepik</a>
+                    </p>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12"
+                    style="display: flex; flex-direction: column;align-items: center;">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <h1 style="text-align: center;color: #3f5782;font-size: 8rem;">
+                                    ,,
+                                </h1>
+                                <h1 style="text-align: center;color: black;">
+                                    Our Clients Say
+                                </h1>
+                                <h6 style="text-align: center;color: black;">
+                                    "Aenean pulvinar dui ornare, feugiat lorem non, ultrices justo. Mauris efficitur,
+                                    mauris in auctor euismod, quam elit ultrices urna, eget eleifend arcu risus id
+                                    metus. Maecenas ex enim, mattis eu velit vitae, blandit mattis sapien. Sed aliquam
+                                    leo et semper vestibulum."
+                                </h6>
+                                <br>
+                                <h5
+                                    style="text-align: center;color: black;letter-spacing: 3px;text-transform: uppercase;">
+                                    <b>
+                                        JOHN JACKSON
+                                    </b>
+                                </h5>
+                                <h6
+                                    style="text-align: center;color: black;letter-spacing: 3px;text-transform: uppercase;">
+                                    HAPPY CLIENT
+                                </h6>
+                            </div>
+                            <div class="carousel-item">
+                                <h1 style="text-align: center;color: #3f5782;font-size: 8rem;">
+                                    ,,
+                                </h1>
+                                <h1 style="text-align: center;color: black;">
+                                    Our Clients Say
+                                </h1>
+                                <h6 style="text-align: center;color: black;">
+                                    "Aenean pulvinar dui ornare, feugiat lorem non, ultrices justo. Mauris efficitur,
+                                    mauris in auctor euismod, quam elit ultrices urna, eget eleifend arcu risus id
+                                    metus. Maecenas ex enim, mattis eu velit vitae, blandit mattis sapien. Sed aliquam
+                                    leo et semper vestibulum."
+                                </h6>
+                                <br>
+                                <h5
+                                    style="text-align: center;color: black;letter-spacing: 3px;text-transform: uppercase;">
+                                    <b>
+                                        MARRY LARSON
+                                    </b>
+                                </h5>
+                                <h6
+                                    style="text-align: center;color: black;letter-spacing: 3px;text-transform: uppercase;">
+                                    HAPPY CLIENT
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row" style="padding-top: 50px;">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12"
+                    style="display: flex; flex-direction: column;align-items: center;">
+                    <div class="girl_img">
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" style="padding-top: 50px;padding-left: 30px;">
+                    <form action="/action_page.php">
+                        <div class="form-group">
+                            <label for="email" style="margin: 15px;">Email:</label>
+                            <input type="email" class="form-control in_focus" data-bs-toggle="tooltip"
+                                data-bs-placement="bottom" title="Please fill out" id="email"
+                                placeholder="Enter a valid email" name="email"
+                                style="border: 0;border-bottom: 2px solid black;outline: 0;transition: border-color 0.2s;">
+                        </div>
+                        <div class="form-group">
+                            <label for="pwd"
+                                style="margin-left: 15px;margin-top: 30px;margin-bottom: 15px;">Address:</label>
+                            <input type="text" class="form-control in_focus" data-bs-toggle="tooltip"
+                                data-bs-placement="bottom" title="Please fill out" id="add"
+                                placeholder="Enter your address" name="add"
+                                style="border: 0;border-bottom: 2px solid black;outline: 0;transition: border-color 0.2s;">
+                        </div>
+                        <select name="Item1"
+                            style="padding:10px;margin-top: 45px;margin-bottom: 20px;width: 100%;border: 0;border-bottom: 2px solid black;outline: 0;transition: border-color 0.2s;">
+                            <option value="Item1">Item1</option>
+                            <option value="Item2">Item2</option>
+                            <option value="Item3">Item3</option>
+                        </select>
+                        <div class="checkbox">
+                            <label style="padding-top: 35px;padding-bottom: 20px;"><input type="checkbox"
+                                    name="remember"> I accept the <a href="#" style="text-decoration: none;"> Terms of
+                                    Service</a></label>
+                        </div>
+                        <button type="submit" class="btn btn-default"
+                            style="background-color: black;color: white;width: 120px;height: 50px;border-radius: 0;margin-top: 40px;">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div
+                    style=" width: 100%; height: 230px;background-color: #333333;display: flex;flex-direction: column;margin-top: 7px;">
+                    <h6 class="text_align"
+                        style="text-align: center; color: white;font-size: 1.3rem;padding-top: 50px;align-self: center;width: 520px;">
+                        Sample text. Click to select the text box. Click again or double click to start editing the
+                        text.
+                    </h6>
+                    <br>
+                    <br>
+                    <div style="display: flex;flex-direction: row;align-items: center;justify-content: center;">
+                        <a href="#" class="footer_p" style="color: white;text-align: center;">Website Templates
+                            <span class="footer_p"
+                                style="color: white;text-align: center;text-decoration: none;display: inline-block;text-indent: 10px;">
+                                created with
+                            </span>
+                        </a>
+                        <a href="#" class="footer_p" style="color: white;text-align: center;text-indent: 10px;"> Website
+                            Builder
+                            Software.</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/jquery/jquery-3.6.0.js"></script>
+
+    <!-- navbar -->
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.display = "block";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.display = "none";
+        }
+    </script>
+    <script>
+        window.onscroll = function () {
+            myFunction()
+        };
+
+        var navbar = document.getElementById("head1");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+    </script>
+</body>
+
+</html>
