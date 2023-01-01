@@ -87,7 +87,7 @@ html, body {
     width: 100%;
 }
 
-.sticky {
+/* .sticky {
     position: fixed;
     top: 50px;
     width: 100%;
@@ -95,7 +95,7 @@ html, body {
 
 .sticky+.content {
     padding-top: 60px;
-}
+} */
 
 .column_3 {
     flex-direction: column;
