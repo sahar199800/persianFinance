@@ -1,0 +1,261 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    overflow-x: hidden;
+    margin: 0;
+}
+
+@font-face {
+    font-family: shabnam;
+    src: url(./fonts/Shabnam.ttf);
+}
+
+.sidenav {
+    display: none;
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow: hidden;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.head1 {
+    z-index: 7;
+    align-content: space-between;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.back_img {
+    background-repeat: no-repeat;
+    background-image: url(assets/img/a.jpg);
+    width: 100%;
+    height: 700px;
+    background-position: 50% 100%;
+}
+
+.button1 {
+    background-color: transparent;
+    color: black;
+    border: 2px solid #555555;
+    text-align: center;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 125px;
+    height: 60px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button1:hover {
+    background-color: black;
+    color: white;
+}
+
+.div_welcome {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.sticky {
+    position: fixed;
+    top: 50px;
+    width: 100%;
+}
+
+.sticky+.content {
+    padding-top: 60px;
+}
+
+.column_3 {
+    flex-direction: column;
+    display: flex;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 0;
+}
+
+.man_img {
+    background: url(assets/img/man.jpg);
+    background-repeat: no-repeat;
+    width: 360px;
+    height: 565px;
+    background-size: cover;
+}
+
+.blue_div {
+    background-color: #3f5782;
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+}
+
+.button2 {
+    background-color: transparent;
+    color: black;
+    border: 2px solid #555555;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    width: 130px;
+    height: 40px;
+}
+
+.button2:hover {
+    background-color: black;
+    color: white;
+}
+
+.men_img {
+    background: url(assets/img/b.jpg);
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 300px;
+    background-size: cover;
+    margin-top: 20px;
+}
+
+.pen_img {
+    background: url(assets/img/pen.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.boy_img {
+    background: url(assets/img/boy.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 350px;
+    height: 256px;
+    margin-top: 50px;
+    margin-left: -40px;
+}
+
+.girl_img {
+    background: url(assets/img/girl.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 650px;
+}
+
+.in_focus:focus {
+    outline: none;
+    box-shadow: 0px 0px 5px gray !important;
+    border: 3px solid black !important;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #length1 {
+        width: 90%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .length2 {
+        width: 50%;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 768px) {
+    #sm_12 {
+        display: block !important;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 768px) {
+    #main_col {
+        display: none;
+    }
+}
+
+@media (min-width: 350px) and (max-width: 992px) {
+    .boy_img {
+        width: 395px;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 400px) {
+    .man_img {
+        width: 275px;
+        background-size: cover;
+        height: 390px;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 540px) {
+    .text_align {
+        max-width: fit-content;
+        height: auto;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 991px) {
+    .width_100 {
+        min-inline-size: -webkit-fill-available;
+    }
+}
+@media (min-width: 300px) and (max-width: 991px) {
+    .width_101 {
+        width: 267px !important;
+    }
+}
+@media (min-width: 300px) and (max-width: 500px) {
+    .boy_img {
+        width: 250px;
+        background-position:bottom;
+    }
+}
+@media (min-width: 300px) and (max-width: 447px) {
+    .footer_p {
+        font-size:0.6rem;
+    }
+}
+@media (min-width: 300px) and (max-width: 676px) {
+    .p_size {
+        max-width: fit-content;
+        height: auto;
+    }
+}
